@@ -21,6 +21,7 @@
 		BD289F15192C3A0000783DBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD289EF7192C3A0000783DBC /* UIKit.framework */; };
 		BD289F1D192C3A0000783DBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD289F1B192C3A0000783DBC /* InfoPlist.strings */; };
 		BD289F1F192C3A0000783DBC /* Study2014052102Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD289F1E192C3A0000783DBC /* Study2014052102Tests.m */; };
+		BD289F2A192C3C1000783DBC /* StudyViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = BD289F29192C3C1000783DBC /* StudyViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BD289F1A192C3A0000783DBC /* Study2014052102Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Study2014052102Tests-Info.plist"; sourceTree = "<group>"; };
 		BD289F1C192C3A0000783DBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD289F1E192C3A0000783DBC /* Study2014052102Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Study2014052102Tests.m; sourceTree = "<group>"; };
+		BD289F28192C3C1000783DBC /* StudyViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyViewController1.h; sourceTree = "<group>"; };
+		BD289F29192C3C1000783DBC /* StudyViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				BD289F09192C3A0000783DBC /* StudyViewController.m */,
 				BD289F0B192C3A0000783DBC /* Images.xcassets */,
 				BD289EFA192C3A0000783DBC /* Supporting Files */,
+				BD289F28192C3C1000783DBC /* StudyViewController1.h */,
+				BD289F29192C3C1000783DBC /* StudyViewController1.m */,
 			);
 			path = Study2014052102;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				BD289F04192C3A0000783DBC /* StudyAppDelegate.m in Sources */,
 				BD289F00192C3A0000783DBC /* main.m in Sources */,
+				BD289F2A192C3C1000783DBC /* StudyViewController1.m in Sources */,
 				BD289F0A192C3A0000783DBC /* StudyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
